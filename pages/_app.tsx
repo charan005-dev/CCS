@@ -11,12 +11,12 @@ const lightTheme = createTheme({
    },
 });
 
-const darkTheme = createTheme({
-   type: 'dark',
-   theme: {
-      colors: {},
-   },
-});
+// const darkTheme = createTheme({
+//    type: 'dark',
+//    theme: {
+//       colors: {},
+//    },
+// });
 
 function MyApp({Component, pageProps}: AppProps) {
    const [isClient, setIsClient] = useState(false);
@@ -35,7 +35,7 @@ function MyApp({Component, pageProps}: AppProps) {
          attribute="class"
          value={{
             light: lightTheme.className,
-            dark: darkTheme.className,
+            // dark: darkTheme.className,
          }}
       >
          <NextUIProvider>
