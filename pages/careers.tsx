@@ -1,5 +1,6 @@
+import React from 'react';
+import { Nav } from '../components/navbar/navbar';
 import type {NextPage} from 'next';
-import {Nav} from '../components/navbar/navbar';
 import {Layout} from '../components/navbar/layout';
 import {Hero} from '../components/hero';
 import {Trusted} from '../components/trusted';
@@ -13,23 +14,20 @@ import {Plans} from '../components/plans';
 import {Faq} from '../components/faq';
 import {Trial} from '../components/trial';
 import {Footer} from '../components/footer';
-import { BannerHome } from '../components/bannerHome';
+import { FaqCareers } from '../components/faqCareers';
 
-const Home: NextPage = () => {
-   return (
-      <Layout>
-         <Nav />
-         <Box as="main"> 
+const CustomersPage = () => {
+    return (
+        <> 
+            <Nav/>
             
-            <Hero />
-            <Statistics />
-            <Features2 />
           
-            <Trial /> 
+           <Plans />
+           <FaqCareers />
+            
             <Footer />
-         </Box>
-      </Layout>
-   );
+            </>
+  );
 };
 
-export default Home;
+export default CustomersPage;
