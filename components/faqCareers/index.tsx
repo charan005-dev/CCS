@@ -35,13 +35,13 @@ export const FaqCareers = () => {
                  
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3 style={{color: 'orange'}}>
-                     What is the company's stance on career advancement and promotions?
+                     What is the company&rsquo;s stance on career advancement and promotions?
                      </Text>
                      <Text
                         span
                        
                      >
-                       Company policies regarding career growth and promotions can vary, and it's advisable to check the company's official documentation, employee handbook, or reach out to their HR department for the most accurate and current information. It's common for companies in the IT industry to prioritize professional development, continuous learning, and career advancement opportunities, but the specifics would depend on the company's organizational culture and policies.
+                       Company policies regarding career growth and promotions can vary, and it&apos;s advisable to check the company&apos;s official documentation, employee handbook, or reach out to their HR department for the most accurate and current information. It&apos;s common for companies in the IT industry to prioritize professional development, continuous learning, and career advancement opportunities, but the specifics would depend on the company&apos;s organizational culture and policies.
                      </Text>
                     
                   </Flex>
@@ -51,7 +51,7 @@ export const FaqCareers = () => {
                  
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3 style={{color: 'orange'}}>
-                     What is the company's approach to work-life balance?
+                     What is the company&rsquo;s approach to work-life balance?
                      </Text>
                      <Text
                         span

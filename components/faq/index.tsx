@@ -50,7 +50,7 @@ export const Faq = () => {
                   
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3 style={{color: 'orange'}}>
-                     Can you provide an overview of the company's mission and values?
+                     Can you provide an overview of the company&rsquo;s mission and values?
                      </Text>
                      <Text
                         span
@@ -68,7 +68,7 @@ export const Faq = () => {
                 
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3 style={{color: 'orange'}}> 
-                     What is the company's commitment to customer satisfaction?
+                     What is the company&rsquo;s commitment to customer satisfaction?
                      </Text>
                      <Text
                         span
